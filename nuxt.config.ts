@@ -119,7 +119,7 @@ export default defineNuxtConfig({
       randomPostsNumber: 1, // number of random post NFTs to show in the sidebar widget
       rpcCustom: process.env.RPC_CUSTOM || "https://rpc.ankr.com/polygon", // Custom RPC URL
       showFeatures: { // show/hide features in sidebars (if you have too many "true", make the sidebar scrollable --> sidebarLeftSticky: false)
-        "activityPoints": false, 
+        "activityPoints": true, 
         "airdrop": false, 
         "friendKeys": false, 
         "governance": false,
